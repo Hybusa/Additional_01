@@ -107,6 +107,7 @@ public class Main
         double a5_sum_r = Math.round(a5_sum*100.0)/100.0;
 
         System.out.println("Сумма покупки A со скидкой: " + a5_sum_r + "р");
+        System.out.print(System.lineSeparator());
 
         // Часть Б
         int b5_s = 2870;
@@ -124,6 +125,7 @@ public class Main
         double b5_sum_r = a5_s_sum_r + b5_b_sum;
 
         System.out.println("Сумма покупки Б со скидкой: " + b5_sum_r + "р");
+        System.out.print(System.lineSeparator());
 
         // Часть В
 
@@ -139,6 +141,7 @@ public class Main
         double c5_m_sum_r = Math.round(c5_m_sum*100.0)/100.0;
 
         System.out.println("Сумма покупки В со скидкой: " + c5_m_sum_r + "р");
+        System.out.print(System.lineSeparator());
 
         //Sixth task
 
@@ -150,6 +153,7 @@ public class Main
         11*x + y
         (x+10*y)- 15*(x/y);
 */
+        System.out.println("Задание 6:");
 
         double x = 0.40;
         double y = 0.87;
@@ -158,7 +162,7 @@ public class Main
         System.out.println("(x+10*y) - 15*(x/y) =  " + ((x+10+y) - (15*(x/y))));
 
 
-
+        System.out.print(System.lineSeparator());
         System.out.println("Конец первого блока '1.2 Переменные' ");
 
     }
